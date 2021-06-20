@@ -17,12 +17,11 @@
       "type": "ActionSet",
       "actions": [
         {
-          "type": "Action.Execute",
+          "type": "Action.Submit",
           "title": "Order again",
-          "verb": "order",
           "data": {
-            "nextCardToSend": 0,
-            "currentCard": 2,
+            "nextCardToSend": 1,
+            "currentCard": 3,
             "option": ""
           }
         }

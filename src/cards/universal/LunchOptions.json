@@ -1,0 +1,69 @@
+{
+  "type": "AdaptiveCard",
+  "body": [
+    {
+      "type": "TextBlock",
+      "text": "What would you like for lunch?",
+      "size": "Medium",
+      "weight": "Bolder"
+    },
+    {
+      "type": "RichTextBlock",
+      "inlines": [
+        {
+          "type": "TextRun",
+          "text": "Your Personalized Lunch Options",
+          "italic": true,
+          "size": "medium"
+        }
+      ]
+    },
+    {
+      "type": "ActionSet",
+      "actions": [
+        {
+          "type": "Action.Execute",
+          "verb": "order",
+          "title": "Chicken",
+          "data": {
+            "nextCardToSend": 2,
+            "currentCard": 0,
+            "option": "chicken"
+          }
+        },
+        {
+          "type": "Action.Execute",
+          "verb": "order",
+          "title": "Beef",
+          "data": {
+            "nextCardToSend": 2,
+            "currentCard": 0,
+            "option": "beef"
+          }
+        },
+        {
+          "type": "Action.Execute",
+          "verb": "order",
+          "title": "Pasta (vegan)",
+          "data": {
+            "nextCardToSend": 2,
+            "currentCard": 0,
+            "option": "Pasta (vegan)"
+          }
+        },
+        {
+          "type": "Action.Execute",
+          "verb": "order",
+          "title": "Salad (vegan)",
+          "data": {
+            "nextCardToSend": 2,
+            "currentCard": 0,
+            "option": "Salad (vegan)"
+          }
+        }
+      ]
+    }
+  ],
+  "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+  "version": "1.4"
+}

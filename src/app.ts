@@ -1,10 +1,8 @@
 import * as restify from "restify";
 import * as path from "path";
 import {config} from "dotenv";
-import {
-  BotFrameworkAdapter,
-} from "botbuilder";
-import { DinnerBot } from "./DinnerBot";
+import {BotFrameworkAdapter} from "botbuilder";
+import {DinnerBot} from "./DinnerBot";
 
 const NODE_ENV = process.env.NODE_ENV || "development";
 
@@ -28,7 +26,6 @@ export const adapter = new BotFrameworkAdapter({
   appId: process.env.APP_ID,
   appPassword: process.env.APP_PASSWORD,
 });
-
 
 const bot = new DinnerBot();
 

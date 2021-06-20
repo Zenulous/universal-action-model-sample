@@ -1,0 +1,38 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "text": "Welcome to the lunch bot 👨‍🍳👩‍🍳",
+            "size": "Medium",
+            "weight": "Bolder"
+        },
+        {
+            "type": "RichTextBlock",
+            "inlines": [
+                {
+                    "type": "TextRun",
+                    "text": "Using this bot you can order your pickup lunch for today.",
+                    "italic": true,
+                    "size": "Medium"
+                }
+            ]
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "verb": "order",
+                    "title": "Let's get started",
+                    "data": {
+                        "nextCardToSend": 1,
+                        "currentCard": 0
+                    }
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.3"
+}

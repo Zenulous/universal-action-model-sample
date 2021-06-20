@@ -22,42 +22,42 @@
       "type": "ActionSet",
       "actions": [
         {
-          "type": "Action.Execute",
+          "type": "Action.Submit",
           "verb": "order",
           "title": "Chicken",
           "data": {
-            "nextCardToSend": 1,
-            "currentCard": 0,
+            "nextCardToSend": 2,
+            "currentCard": 1,
             "option": "chicken"
           }
         },
         {
-          "type": "Action.Execute",
+          "type": "Action.Submit",
           "verb": "order",
           "title": "Beef",
           "data": {
-            "nextCardToSend": 1,
-            "currentCard": 0,
+            "nextCardToSend": 2,
+            "currentCard": 1,
             "option": "beef"
           }
         },
         {
-          "type": "Action.Execute",
+          "type": "Action.Submit",
           "verb": "order",
           "title": "Pasta (vegan)",
           "data": {
-            "nextCardToSend": 1,
-            "currentCard": 0,
+            "nextCardToSend": 2,
+            "currentCard": 1,
             "option": "Pasta (vegan)"
           }
         },
         {
-          "type": "Action.Execute",
+          "type": "Action.Submit",
           "verb": "order",
           "title": "Salad (vegan)",
           "data": {
-            "nextCardToSend": 1,
-            "currentCard": 0,
+            "nextCardToSend": 2,
+            "currentCard": 1,
             "option": "Salad (vegan)"
           }
         }

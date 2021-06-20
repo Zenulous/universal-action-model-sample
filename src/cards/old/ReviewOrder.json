@@ -19,22 +19,22 @@
       "type": "ActionSet",
       "actions": [
         {
-          "type": "Action.Execute",
+          "type": "Action.Submit",
           "verb": "order",
           "title": "Change Lunch",
           "data": {
-            "nextCardToSend": 0,
-            "currentCard": 1,
+            "nextCardToSend": 1,
+            "currentCard": 2,
             "option": ""
           }
         },
         {
-          "type": "Action.Execute",
+          "type": "Action.Submit",
           "verb": "order",
           "title": "Confirm Order",
           "data": {
-            "nextCardToSend": 2,
-            "currentCard": 1,
+            "nextCardToSend": 3,
+            "currentCard": 2,
             "option": "confirm"
           }
         }
